@@ -34,8 +34,8 @@ function startGame() {
     let cursors;
 
     function preload() {
-        this.load.image("background", "path-to-background.jpg");
-        this.load.image("player", "path-to-character.png");
+        this.load.image("background", "background.jpg");
+        this.load.image("player", "character.png");
     }
 
     function create() {
